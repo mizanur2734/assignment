@@ -9,16 +9,6 @@
     padding: 0;
 }
 
-/* shared styles */
-.black-1{
-    color: #0E0E0E;
-}
-
-.dark-2{
-    
-}
-
-
 .header{
     margin: 20px 107px 20px 107px;
 }
@@ -64,6 +54,7 @@ nav ul li{
     font-weight: 500px;
 }
 .banner-title{
+    color: #0E0E0E;
     font-size: 42px;
     font-weight: 700;
     margin-top: 16px;
@@ -79,4 +70,100 @@ nav ul li{
     border-radius: 8px;
     border: none;
     margin-top: 16px;
+}
+
+/* skill section*/
+#main{
+    margin: 0 107px 0 107px;
+   
+}
+.text-title{
+    margin-top: 50px;
+    color: #0E0E0E;
+    font-size: 28px;
+    font-weight: 700;
+}
+.skill{
+    display: flex;
+    gap: 20px;
+}
+.skills-container img{
+    width: 50px;
+}
+.skills-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 24px;
+    margin: 20px 0 20px 0;
+}
+
+.text-title-primary {
+    margin-top: 20px;
+    color: #0E0E0ECC;
+    font-size: 20px;
+    font-weight: 700;
+}
+.text-description{
+    color: #0E0E0EB3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+/* future section */
+.future-heading{
+    color: #0E0E0E;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.future-description{
+    color: #0E0E0EB3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.future-section{
+    display: flex;
+    gap: 20px;
+}
+.future{
+    background-color: #5490F533;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 30px 0px 30px 0;
+}
+.future img{
+    width: 50px;
+}
+.future-title{
+    margin-top: 20px;
+    color: #0E0E0ECC;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.future-text{
+    color: #0E0E0EB3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.btn-bg{
+    background-color: #5490F5;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    box-sizing: border-box; 
+    margin-top: 25px;
+}
+.btn-1{
+    margin-top: 35px;
+}
+.btn-2{
+    margin-top: 45px;
 }
