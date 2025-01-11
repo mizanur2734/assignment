@@ -35,6 +35,8 @@ nav ul li{
 }
 .hed-btn:hover{
     background-color: tomato;
+    transition: all;
+    animation-duration: 300s;
 }
 /* banner-styles */
 .banner{
@@ -72,11 +74,6 @@ nav ul li{
     border: none;
     margin-top: 25px;
 }
-.btn-primary{
-
-}
-
-
 /* skill section*/
 #main{
     margin: 0 107px 0 107px;
@@ -172,6 +169,8 @@ nav ul li{
 }
 .btn-bg:hover{
     background-color: tomato;
+    transition: all;
+    animation-duration: 300s;
 }
 .btn-1{
     margin-top: 35px;
@@ -189,6 +188,7 @@ nav ul li{
     margin-top: 20px;
     padding: 20px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
 .nobel-heading{
@@ -366,6 +366,26 @@ nav ul li{
 .donate-btn{
     display: flex;
     justify-content: center;
+}
+.mony-1:hover{
+    background-color: tomato;
+    transition: all;
+    animation-duration: 300s;
+}
+.mony-2:hover{
+    background-color: blue;
+    transition: all;
+    animation-duration: 300s;
+}
+.mony-3:hover{
+    background-color: palegreen;
+    transition: all;
+    animation-duration: 300s;
+}
+.mony-4:hover{
+    background-color: darkorange;
+    transition: all;
+    animation-duration: 300s;
 }
 /* news-letter-section */
 .news-letter-section{
