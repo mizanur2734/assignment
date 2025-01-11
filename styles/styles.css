@@ -44,6 +44,7 @@ nav ul li{
     align-items: center;
     margin-top: 20px;
     padding: 50px 65px;
+    border-radius: 20px;
 }
 .banner-content{
     max-width: 415px;
@@ -135,6 +136,12 @@ nav ul li{
     border-radius: 16px;
     margin: 30px 0px 30px 0;
 }
+.future-light{
+    background-color: #C6E4D6;
+}
+.future-yellow{
+    background-color: #F7EBCF;
+}
 .future img{
     width: 50px;
 }
@@ -184,8 +191,8 @@ nav ul li{
 }
 .recent-news{
     border-radius: 24px;
-    background: #FFFFFF;
-    padding: 15px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+    padding: 20px;
     display: flex;
     align-items: center;
     gap: 22px;
@@ -227,4 +234,80 @@ nav ul li{
     border-radius: 8px;
     padding: 12px 22px;
     margin-top: 10px;
+}
+/* donate section */
+.donate-title{
+    color: #0E0E0E;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    text-align: center;
+}
+.donate-description{
+    color: #0E0E0EB3;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+.mony{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mony h3{
+    color: #0E0E0ECC;
+    font-size: 28px;
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    padding: 30px 35px;
+}
+.mony .common-bg{
+    background-color: #C6E4D6
+    ;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+}
+.input-type{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    color: #0E0E0E4D;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 20px;
+    padding: 20px 350px;
+    margin-top: 30px;
+}
+.donate-btn{
+    display: flex;
+    justify-content: center;
+}
+/* footer section */
+footer{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+    padding: 20px 0;
+    margin-top: 30px;
+}
+hr{
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border: 1px solid rgba(14, 14, 14, 0.1);
+  
+}
+.footer-title{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
