@@ -312,6 +312,7 @@ nav ul li{
     border-radius: 8px;
     padding: 12px 22px;
     margin-top: 10px;
+    border: none;
 }
 .recent-btn:hover{
     background-color: tomato;
